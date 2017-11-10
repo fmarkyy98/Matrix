@@ -10,6 +10,9 @@ namespace Matrix
     {
         static void Main(string[] args)
         {
+            MyMatrix<int> M1 = new MyMatrix<int>(10, 10);
+            MyMatrix<int> M2 = new MyMatrix<int>(10, 20);
+            M1.doNothing(2);
         }
     }
 }
